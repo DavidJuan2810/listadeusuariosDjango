@@ -5,4 +5,4 @@ class PersonaForm(forms.ModelForm):
 
     class Meta:
         model=Persona
-        fields ='__al__'
+        fields ='__all__'
