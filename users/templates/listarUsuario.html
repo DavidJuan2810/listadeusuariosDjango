@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ola</h1>
+    {for persona in personas %}
+    <li>{{persona.name}}</li>
+    {% endfor %}
+
+    <a href="crear">Nuevo ususario</a>
 </body>
 </html>
